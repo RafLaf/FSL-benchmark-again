@@ -27,7 +27,7 @@ The config files for the benchmark can be found in .config/benchmark but you can
 $ python loop_yaml.py
 ```
 
-# running the scripts:
+# Running the scripts:
 you can then run the scripts by selecting which backbone you prefer and the number of shots:
 ```bash
 ./loop_exp.sh clip 10
