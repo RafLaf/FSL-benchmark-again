@@ -1,0 +1,37 @@
+AUG:
+  MEAN:
+  - 0.4712
+  - 0.4499
+  - 0.4031
+  STD:
+  - 0.2726
+  - 0.2634
+  - 0.2794
+  TEST_CROP: true
+DATA:
+  IMG_SIZE: 224
+  TEST:
+    BATCH_SIZE: 1
+    DATASET_NAMES:
+    - fungi
+    DATASET_ROOTS:
+    - /home/datasets/fungi/
+    EPISODE_DESCR_CONFIG:
+      MAX_NUM_QUERY: 1
+      MIN_EXAMPLES_IN_CLASS: 10
+      NUM_QUERY: 5
+      NUM_SUPPORT: 5
+      NUM_TASKS_PER_EPOCH: 2000
+      NUM_WAYS: 5
+      SEQUENTIAL_SAMPLING: 0
+      USE_BILEVEL_HIERARCHY: false
+      USE_DAG_HIERARCHY: false
+GPU_ID: 0
+IS_TRAIN: 0
+MODEL:
+  BACKBONE: clip
+  CLASSIFIER: LR
+  CLASSIFIER_PARAMETERS: []
+  NAME: evaluation
+  TYPE: Episodic_Model
+OUTPUT: ../new_metadataset_result

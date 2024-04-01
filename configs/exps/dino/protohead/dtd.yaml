@@ -1,0 +1,41 @@
+AUG:
+  MEAN:
+  - 0.4712
+  - 0.4499
+  - 0.4031
+  STD:
+  - 0.2726
+  - 0.2634
+  - 0.2794
+  TEST_CROP: true
+DATA:
+  IMG_SIZE: 224
+  TEST:
+    BATCH_SIZE: 1
+    DATASET_NAMES:
+    - dtd
+    DATASET_ROOTS:
+    - /home/datasets/dtd/
+    EPISODE_DESCR_CONFIG:
+      MAX_NUM_QUERY: 15
+      MIN_EXAMPLES_IN_CLASS: 20
+      NUM_QUERY: 15
+      NUM_SUPPORT: 5
+      NUM_TASKS_PER_EPOCH: 2000
+      NUM_WAYS: 5
+      SEQUENTIAL_SAMPLING: 0
+      USE_BILEVEL_HIERARCHY: false
+      USE_DAG_HIERARCHY: false
+GPU_ID: 0
+IS_TRAIN: 0
+MODEL:
+  BACKBONE: DINO_ViT
+  BACKBONE_HYPERPARAMETERS:
+  - base
+  - 16
+  CLASSIFIER: MatchingNet
+  CLASSIFIER_PARAMETERS: []
+  NAME: evaluation
+  PRETRAINED: /home/raphael/Documents/models/DINO/dino_vitbase16_pretrain.pth
+  TYPE: Episodic_Model
+OUTPUT: ../new_metadataset_result

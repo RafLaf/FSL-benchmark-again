@@ -1,0 +1,61 @@
+AUG:
+  MEAN:
+  - 0.4712
+  - 0.4499
+  - 0.4031
+  STD:
+  - 0.2726
+  - 0.2634
+  - 0.2794
+  TEST_CROP: true
+DATA:
+  IMG_SIZE: 224
+  VALID:
+    BATCH_SIZE: 10
+    DATASET_NAMES:
+    - aircraft
+    DATASET_ROOTS:
+    - /home/datasets/fgvc-aircraft-2013b/converted/
+    EPISODE_DESCR_CONFIG:
+      MAX_NUM_QUERY: 15
+      MIN_EXAMPLES_IN_CLASS: 20
+      NUM_QUERY: 15
+      NUM_SUPPORT: 5
+      NUM_TASKS_PER_EPOCH: 50
+      NUM_WAYS: 5
+      SEQUENTIAL_SAMPLING: 1
+      USE_BILEVEL_HIERARCHY: false
+      USE_DAG_HIERARCHY: false
+GPU_ID: 0
+IS_TRAIN: 0
+MODEL:
+  BACKBONE: clip
+  CLASSIFIER: finetune
+  CLASSIFIER_PARAMETERS:
+  - 100
+  - 100
+  - 10
+  - 0.02
+  - 0.1
+  - false
+  - false
+  - fc
+  NAME: evaluation
+  TYPE: fewshot_finetune
+OUTPUT: ../new_metadataset_result
+SEARCH_HYPERPARAMETERS:
+  EPOCH_RANGE:
+  - 5
+  - 10
+  - 20
+  - 30
+  LR_BACKBONE_RANGE:
+  - 0.0001
+  - 0.001
+  - 0.01
+  - 0.1
+  LR_HEAD_RANGE:
+  - 0.0001
+  - 0.001
+  - 0.01
+  - 0.1
