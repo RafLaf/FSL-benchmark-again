@@ -1,5 +1,6 @@
-# Oops I sampled it again
+# Oops, I Sampled it Again:  Reinterpreting Confidence Intervals in Few-Shot Learning
 
+This repository is an implementation of our submission "Oops, I Sampled it Again:  Reinterpreting Confidence Intervals in Few-Shot Learning"
 
 
 This repository is a fork of the [implementation](https://github.com/Frankluox/CloserLookAgainFewShot.git) of ICML 2023 paper: [A Closer Look at Few-shot Classification Again](https://arxiv.org/abs/2301.12246), as well as a Pytorch implementation of [Meta-Dataset](https://github.com/google-research/meta-dataset) without any component of TensorFlow.
