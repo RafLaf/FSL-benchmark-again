@@ -38,7 +38,7 @@ MODEL:
   CLASSIFIER_PARAMETERS:
   - NCC
   NAME: evaluation
-  PRETRAINED: /home/raphael/Documents/models/ce_miniImageNet_res12.pth
+  PRETRAINED: /home/anonymous/Documents/models/ce_miniImageNet_res12.pth
   TYPE: build
 OUTPUT: ../new_metadataset_result
 SEED: 0

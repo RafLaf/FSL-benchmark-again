@@ -97,14 +97,14 @@ if model == 'clip':
 elif model == 'dino':
    Data["MODEL"]["BACKBONE"] = 'DINO_ViT'
    Data["MODEL"]["BACKBONE_HYPERPARAMETERS"] = ['base', 16]
-   Data["MODEL"]["PRETRAINED"] = '/home/raphael/Documents/models/DINO/dino_vitbase16_pretrain.pth'
+   Data["MODEL"]["PRETRAINED"] = '/home/anonymous/Documents/models/DINO/dino_vitbase16_pretrain.pth'
 elif model =='dinov2':
    Data["MODEL"]["BACKBONE"] = 'DINO_v2'
    Data["MODEL"]["BACKBONE_HYPERPARAMETERS"] =  ['dinov2_vitb14_reg']
 else:
    sys.exit('model not found')
 
-#Data["MODEL"]["PRETRAINED"] = '/home/raphael/Documents/models/ce_miniImageNet_res12.pth'# for example
+#Data["MODEL"]["PRETRAINED"] = '/home/anonymous/Documents/models/ce_miniImageNet_res12.pth'# for example
 
 #Data["DATA"]["NUM_WORKERS"] = 8
 

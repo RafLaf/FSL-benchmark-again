@@ -44,6 +44,6 @@ MODEL:
   - false
   - fc
   NAME: evaluation
-  PRETRAINED: /home/raphael/Documents/models/DINO/dino_vitbase16_pretrain.pth
+  PRETRAINED: /home/anonymous/Documents/models/DINO/dino_vitbase16_pretrain.pth
   TYPE: fewshot_finetune
 OUTPUT: ../new_metadataset_result

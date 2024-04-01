@@ -36,6 +36,6 @@ MODEL:
   CLASSIFIER: MatchingNet
   CLASSIFIER_PARAMETERS: []
   NAME: evaluation
-  PRETRAINED: /home/raphael/Documents/models/DINO/dino_vitbase16_pretrain.pth
+  PRETRAINED: /home/anonymous/Documents/models/DINO/dino_vitbase16_pretrain.pth
   TYPE: Episodic_Model
 OUTPUT: ../new_metadataset_result
