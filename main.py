@@ -317,7 +317,6 @@ def testing(config, dataset,data_loader, model):
                 f'Acc@1 {acc_meter.val:.2f} ({acc_meter.avg:.2f})\t')
 
     accs = torch.stack(accs)
-    print(accs)
     if args.save_stats:        
         torch.save(accs, args.save_stats)
     ci = (1.96*torch.std(accs)/math.sqrt(accs.shape[0])).item()  #should be student's t distribution
