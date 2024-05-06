@@ -148,8 +148,6 @@ class TorchDataset(Dataset):
                 if all_images is None:
                     break
                 self.all_tasks.append([index, all_images, all_labels])
-
-                print(self.all_tasks[_][1][-1]['query'][1])
             else:
                 self.all_tasks.append([index, *self.samplers[index].sample_batch(self.batch_size)])
         self.__len__()

@@ -1,0 +1,1 @@
+./loop_exp.sh dinov2 10 ; ./loop_exp.sh dino 10 ; ./loop_exp.sh clip 10 ; ./loop_exp.sh dinov2 5 ; ./loop_exp.sh dino 5; ./loop_exp.sh clip 5 ; ./loop_exp.sh  dinov2 1 ; ./loop_exp.sh dino 1 ; ./loop_exp.sh clip 1 
