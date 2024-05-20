@@ -8,6 +8,7 @@ This repository is a fork of the [implementation](https://github.com/Frankluox/C
 We modified the sampler to only sample without replacement. Comparision with the predominent method was performed on the original branch of the repo.
 To recreate the experiments, follow the step below.
 
+You can compare your performance to our results. In order to ensure a correct task to task comparision check the results folder and measure correlation with your results. 
 
 
 # Installation
