@@ -4,7 +4,7 @@ This repository is an implementation of our submission "Oops, I Sampled it Again
 
 
 You can cite this work using:
-
+```
 @article{
 lafargue2024oops,
 title={Oops, I Sampled it Again: Reinterpreting Confidence Intervals in Few-Shot Learning},
@@ -13,8 +13,8 @@ journal={Transactions on Machine Learning Research},
 issn={2835-8856},
 year={2024},
 url={https://openreview.net/forum?id=JxxkKt9yrx},
-note={}
-}
+note={}}
+```
 
 This repository is a fork of the [implementation](https://github.com/Frankluox/CloserLookAgainFewShot.git) of ICML 2023 paper: [A Closer Look at Few-shot Classification Again](https://arxiv.org/abs/2301.12246), as well as a Pytorch implementation of [Meta-Dataset](https://github.com/google-research/meta-dataset) without any component of TensorFlow.
 
