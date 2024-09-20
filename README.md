@@ -2,6 +2,7 @@
 
 This repository is an implementation of our submission "Oops, I Sampled it Again:  Reinterpreting Confidence Intervals in Few-Shot Learning"
 You can cite this work using:
+
 @article{lafargue2024oops,
   title={Oops, I Sampled it Again: Reinterpreting Confidence Intervals in Few-Shot Learning},
   author={Lafargue, Raphael and Smith, Luke and Vermet, Franck and L{\"o}we, Mathias and Reid, Ian and Gripon, Vincent and Valmadre, Jack},
